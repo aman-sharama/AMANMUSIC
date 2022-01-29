@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="39012cd85ca75cc79c95f6e8c4d27338-047f0d237d45afab96346e32a96fa9d316113705813.png" alt="logo" class="aman">
+            <ul>
+                <li>
+                    <a href="#"></a>HOME</li>
+                <li>
+                    <a href="#"></a>BOLLYWOOD MUSIC </li>
+                <li>
+                    <a href="#"></a>CONTACT</li>
+                <li>
+                    <a href="#"></a>ALL MUSIC</li>
+
+            </ul>
+        </div>
+        <div class="content">
+            <div class="left-col">
+            </div>
+            <div class="right-col">
+                <p>CLICK MUSIC</p>
+                <img src="icons8-play-64.png" alt="music lobo" id="icon">
+            </div>
+
+        </div>
+
+    </div>
+    <audio id="my song">
+        <source src="01_RADHIKA_GORI_SE_(RADHIKA_GORI_SE)(www.MobileMaza.net).mp3"type="audio/mp3"> 
+    </audio>
+
+    <script>
+        var mysong = document.getElementById("my song");
+        var icon = document.getElementById("icon");
+        icon.onclick = function() {
+            if (mysong.paused) {
+                mysong.play();
+                icon.src = "icons8-pause-squared-48.png";
+            } else {
+                mysong.paused();
+                icon.src = "icons8-play-64.png";
+
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>

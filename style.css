@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(cool_rest-wallpaper-1366x768.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.aman {
+    width: 140px;
+    height: 120px;
+    border-radius: 350px;
+    cursor: pointer;
+}
+
+.navbar {
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    padding: 5px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 4px;
+    font-size: 18px;
+    color: black
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    color: cornsilk;
+}
+
+.left-col {
+    margin-left: 9%;
+}
+
+.left-col h1 {
+    font-size: 30px;
+    color: cornsilk;
+    line-height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: 50PX;
+    display: left;
+}
+
+#icon {
+    cursor: pointer;
+}
